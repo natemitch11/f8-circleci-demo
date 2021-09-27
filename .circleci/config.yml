@@ -35,5 +35,5 @@ jobs:
     steps:
       -checkout
       -node/with-cache:
-          -run: npm install
+        -run: npm install
       -run: npm run test
